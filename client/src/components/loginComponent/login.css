@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg,#2980b9, #8e44ad);
+    height: 100vh;
+    overflow: hidden;
+  }
+
+input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+  }
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.05);
+  }
+
+  .center h1{
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid silver;
+  }
+
+  .center form {
+    padding: 0 50px;
+    box-sizing: border-box;
+  }
+
+  .inputs{
+    margin: 10px;
+  }
+
+  .login{
+    width: 400px;
+    margin: 20px;
+    background-color: rgb(196, 226, 227);
+  }
+
+  .do_a{
+    text-align: center;
+    margin: 10px;
+  }
+
